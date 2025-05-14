@@ -48,7 +48,7 @@ const controllers = {
         res.status(200).json({
             data:chien
         })
-    }
+    },
 
     //update dog infos
     updatedogprofile : (req, res) => {
